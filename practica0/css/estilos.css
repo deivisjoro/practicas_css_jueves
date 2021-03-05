@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*float*/
+/*
+.izquierda{
+    background-color: red;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.derecha{
+    background-color: blue;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+*/
+
+/**flexbox*/
+/*
+.wrapper{
+    display: flex;
+}
+
+.derecha, .izquierda{
+    width: 50%;
+}
+
+.derecha{
+    background-color: red;
+    height: 100vh;
+}
+
+.izquierda{
+    background-color: blue;
+}
+
+*/
+
+
+/*css grid*/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

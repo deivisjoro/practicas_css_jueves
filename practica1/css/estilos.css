@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(16, 16, 206);    
+    height: 80px;
+}
+
+nav{
+    background-color: rgb(23, 250, 117);
+    height: 40px;    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+aside{
+    background-color: red;    
+}
+
+main{
+    background-color: #116611;
+    min-height: 75vh;
+}
+
+footer{
+    background-color: rgb(97, 198, 223);
+    height: 40px;    
+}
